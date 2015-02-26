@@ -1,9 +1,12 @@
-attachments_for_jevents
-=======================
+attachments_for_jevents_save
+============================
 
-Attachments plugin for JEvents (for Joomla)
+Attachments plugin for JEvents (save) (for Joomla)
 
-This plugin allows users to add attachments to JEvents items in Joomla.
+The 'JEvents Save Attachments' plugin enables adding attachments to JEvents
+events while they are created.
+
+This plugin is a companion plugin for Attachments_for_JEvents.
 
 WARNING: This version will only work with Attachments 3.2.2 or later!
          If this version (or later) has not been released, please contact 
@@ -12,7 +15,7 @@ WARNING: This version will only work with Attachments 3.2.2 or later!
 
 By Jonathan M. Cameron
 
-Created February 20, 2015
+Created February 25, 2015
 
 For License/Copying information, please see the file LICENSE.txt
 
@@ -27,18 +30,8 @@ INSTALLATION
    no need to uninstall it first.  Just install the new version over the old
    one.
 
-2. Install the Attachments for JEvents plugin
+2. Install the other plugin Attachments_for_JEvents first!
 
-3. Enable the Attachments for JEvents plugin
+3. Install the Attachments_for_JEvents_Save plugin
 
-4. In JEvents, you will need to change on option in order to work on
-   attachments with the JEvents event detail editor.   
-
-    * In the JEvents manager (back end), click on [Configuration]
-    * Select "Event Editing"
-    * Select the "Intermedia" or "Advanced" options setting
-    * Enable the "Show editors button extensions" option (set to 'YES')
-    * Save
-
-You should be able to add and see attachments on any JEvent event detail view
-on the front end or back end.
+4. Enable the Attachments_for_JEvents_Save plugin
